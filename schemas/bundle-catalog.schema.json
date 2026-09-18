@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/buchwandler/pocket-onnx-bundles/schema/v1",
+  "title": "Pocket ONNX bundle catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "kind", "source", "bundles"],
+  "properties": {
+    "schema": {"const": 1},
+    "kind": {"const": "pocket-onnx-bundle-catalog"},
+    "source": {"$ref": "#/$defs/source"},
+    "bundles": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {"$ref": "#/$defs/bundle"}
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["provider", "repository", "requested_revision", "revision", "bundle_root", "bundle_count"],
+      "properties": {
+        "provider": {"const": "huggingface"},
+        "repository": {"type": "string", "minLength": 3},
+        "requested_revision": {"type": "string", "minLength": 1},
+        "revision": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+        "bundle_root": {"type": "string", "minLength": 1},
+        "bundle_count": {"type": "integer", "minimum": 1},
+        "license": {"type": ["string", "null"]},
+        "snapshot_note": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["role", "quality", "format", "filename", "path", "url", "size", "sha256"],
+      "properties": {
+        "role": {"type": "string", "minLength": 1},
+        "quality": {"type": ["string", "null"]},
+        "format": {"type": ["string", "null"]},
+        "filename": {"type": "string", "minLength": 1},
+        "path": {"type": "string", "minLength": 1},
+        "url": {"type": "string", "pattern": "^https://huggingface\\.co/"},
+        "size": {"type": ["integer", "null"], "minimum": 1},
+        "sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"}
+      }
+    },
+    "profile": {
+      "type": "object",
+      "additionalProperties": {"enum": ["fp32", "int8"]}
+    },
+    "bundle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "aliases", "language", "layers", "sample_rate", "bundle_schema", "profiles", "artifacts", "metadata"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "aliases": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "language": {"type": "string", "minLength": 2},
+        "layers": {"type": "integer", "minimum": 1},
+        "sample_rate": {"type": "integer", "minimum": 1},
+        "bundle_schema": {"type": "integer", "minimum": 1},
+        "max_token_per_chunk": {"type": ["integer", "null"], "minimum": 1},
+        "predefined_voice_names": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "profiles": {
+          "type": "object",
+          "required": ["int8", "fp32"],
+          "properties": {"int8": {"$ref": "#/$defs/profile"}, "fp32": {"$ref": "#/$defs/profile"}},
+          "additionalProperties": false
+        },
+        "artifacts": {"type": "array", "minItems": 8, "items": {"$ref": "#/$defs/artifact"}},
+        "metadata": {"type": "object"}
+      }
+    }
+  }
+}

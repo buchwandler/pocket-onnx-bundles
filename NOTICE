@@ -1,0 +1,6 @@
+pocket-onnx-bundles
+
+Repository-authored catalog metadata, schema, documentation, and CI configuration are MIT
+licensed. Pocket TTS model weights, tokenizers, bundle metadata, predefined voice states, names,
+and other upstream artifacts are not relicensed by this project. The catalog points to the
+upstream repositories using pinned artifact URLs so consumers can retain source provenance.

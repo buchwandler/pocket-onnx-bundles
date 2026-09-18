@@ -1,0 +1,11 @@
+{
+  "bundle_count": 10,
+  "bundle_root": "onnx",
+  "license": "cc-by-4.0",
+  "provider": "huggingface",
+  "repository": "KevinAHM/pocket-tts-onnx",
+  "requested_revision": "main",
+  "revision": "58a6d00cf13d239b6748cb0769f35c580a8f606c",
+  "schema": 1,
+  "snapshot_note": "Bootstrap catalog pinned to the upstream v2-bundle commit. Rebuild with OnnxVoice Pocket catalog tooling to populate current-main hashes and sizes."
+}

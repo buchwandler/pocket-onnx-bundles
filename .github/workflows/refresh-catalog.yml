@@ -1,0 +1,48 @@
+name: refresh-catalog
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 4 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: pocket-bundle-catalog-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install onnxvoice
+      - run: >
+          onnxvoice catalog pocket build
+          --output catalog/bundles.json
+          --source-output catalog/source.json
+      - run: >
+          onnxvoice catalog pocket verify
+          --catalog catalog/bundles.json
+          --source catalog/source.json
+      - name: Commit and publish verified catalog change
+        run: |
+          if [ -z "$(git status --porcelain -- catalog/bundles.json catalog/source.json)" ]; then
+            echo "Catalog unchanged"
+            exit 0
+          fi
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add catalog/bundles.json catalog/source.json
+          git commit -m "chore: refresh Pocket bundle catalog"
+          git pull --rebase origin main
+          onnxvoice catalog pocket build --output catalog/bundles.json --source-output catalog/source.json
+          onnxvoice catalog pocket verify --catalog catalog/bundles.json --source catalog/source.json
+          if [ -n "$(git status --porcelain -- catalog/bundles.json catalog/source.json)" ]; then
+            git add catalog/bundles.json catalog/source.json
+            git commit -m "chore: reconcile Pocket bundle catalog after rebase"
+          fi
+          onnxvoice catalog pocket verify --catalog catalog/bundles.json --source catalog/source.json
+          git push origin HEAD:main

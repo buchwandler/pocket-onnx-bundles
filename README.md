@@ -1,1 +1,104 @@
 # pocket-onnx-bundles
+
+A normalized, reproducible Pocket TTS ONNX bundle catalog for consumers such as
+[OnnxVoice](https://github.com/nahrstaedt/wandler).
+
+## What this repository is
+
+- Canonical generated Pocket ONNX bundle catalog data.
+- Source/provenance metadata.
+- The public JSON catalog contract/schema.
+- Documentation about catalog and upstream model licensing.
+- CI that validates the committed data through OnnxVoice.
+- Scheduled refresh automation driven by OnnxVoice catalog tooling.
+
+## What it is not
+
+- **Not a Python package.** There is no `pyproject.toml`, import package, wheel, or CLI here.
+- Not a model mirror.
+- Not a downloader.
+- Not a synthesis runtime.
+- Not the owner of Pocket's predefined voice-state assets.
+
+OnnxVoice owns catalog parsing, downloads, verification, installation manifests, the shared
+asset store, provider/session creation, and the Pocket multi-session runtime adapter.
+Pocketsynth consumes the installed bundle through OnnxVoice.
+
+## Canonical files
+
+```text
+catalog/bundles.json
+catalog/source.json
+schemas/bundle-catalog.schema.json
+```
+
+The checked-in MVP catalog is a bootstrap snapshot pinned to Pocket ONNX's v2-bundle commit
+`58a6d00cf13d239b6748cb0769f35c580a8f606c`. Once Pocket catalog tooling lands in
+OnnxVoice, run the refresh workflow once to resolve current `main`, collect current Xet/LFS
+SHA-256 and byte sizes, verify, and commit the fully materialized snapshot.
+
+## Consumer example
+
+```python
+from onnxvoice import OnnxVoice
+
+ov = OnnxVoice()
+installation = ov.install("pocket:english_2026-04", quality="int8")
+with ov.open(installation) as runtime:
+    ...
+```
+
+## Bundle contract
+
+A bundle entry contains static bundle files plus component-specific ONNX variants. Artifact
+roles are stable and filenames are not treated as the API:
+
+- `bundle_metadata`
+- `tokenizer`
+- `bos_conditioning`
+- `flow_lm_main`
+- `flow_lm_flow`
+- `mimi_decoder`
+- `mimi_encoder`
+- `text_conditioner`
+
+Each ONNX artifact may have a `quality` such as `fp32` or `int8`. The catalog's `profiles`
+map the requested runtime profile to a component quality. The default `int8` profile follows
+the current upstream Python wrapper: INT8 Flow-LM and decoder, but FP32 Mimi encoder and text
+conditioner. This avoids assuming that every available quantized graph is behaviorally
+interchangeable with upstream defaults.
+
+The catalog deliberately does not mirror Pocket's predefined `.safetensors` voice states.
+Those live in a separate upstream/gated asset domain and should become a separate OnnxVoice
+asset contract instead of being fetched implicitly by Pocketsynth.
+
+## Refresh and verification
+
+After OnnxVoice implements Pocket catalog support:
+
+```bash
+onnxvoice catalog pocket build \
+  --output catalog/bundles.json \
+  --source-output catalog/source.json
+
+onnxvoice catalog pocket verify \
+  --catalog catalog/bundles.json \
+  --source catalog/source.json
+```
+
+The builder should resolve upstream `main` to an exact 40-character SHA, inspect every
+`onnx/<bundle>/bundle.json`, collect artifact metadata from Hugging Face, and emit deterministic
+JSON. The verifier should reject unsafe paths, ambiguous aliases, missing required roles,
+unpinned URLs, duplicate role/quality pairs, incompatible profiles, and source/count mismatch.
+
+## Versioning
+
+This repository is data, not a Python distribution. Catalog compatibility is versioned by the
+JSON `schema` field; repository releases can use Git tags and the changelog. There is no Python
+package version to keep in sync.
+
+## Licensing
+
+Repository-authored metadata/docs are MIT licensed. Model files and bundle metadata referenced
+by the catalog remain under their upstream licensing; the bootstrap source reports CC BY 4.0.
+This repository does not relicense upstream model artifacts.
