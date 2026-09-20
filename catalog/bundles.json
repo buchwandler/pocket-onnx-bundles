@@ -13,18 +13,18 @@
           "path": "onnx/english_2026-04/bundle.json",
           "quality": null,
           "role": "bundle_metadata",
-          "sha256": null,
-          "size": null,
+          "sha256": "bab643150f437f37df080a710520ff39ed9ebd9a339f8ebdc739f7eddfc28b3f",
+          "size": 24381,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/english_2026-04/bundle.json?download=true"
         },
         {
           "filename": "tokenizer.model",
-          "format": "sentencepiece",
+          "format": "model",
           "path": "onnx/english_2026-04/tokenizer.model",
           "quality": null,
           "role": "tokenizer",
-          "sha256": null,
-          "size": null,
+          "sha256": "d461765ae179566678c93091c5fa6f2984c31bbe990bf1aa62d92c64d91bc3f6",
+          "size": 59339,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/english_2026-04/tokenizer.model?download=true"
         },
         {
@@ -33,8 +33,8 @@
           "path": "onnx/english_2026-04/bos_before_voice.npy",
           "quality": null,
           "role": "bos_conditioning",
-          "sha256": null,
-          "size": null,
+          "sha256": "f46edf4f7007b7ba4ea58831f49d003e59e167b4641c44bb3addfe9231a780b1",
+          "size": 4224,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/english_2026-04/bos_before_voice.npy?download=true"
         },
         {
@@ -43,8 +43,8 @@
           "path": "onnx/english_2026-04/flow_lm_main.onnx",
           "quality": "fp32",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "6d18315e2c33ca3e3aa4a4e3dca22f56d007fd823127e24948b37695bf54190f",
+          "size": 302742149,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/english_2026-04/flow_lm_main.onnx?download=true"
         },
         {
@@ -53,8 +53,8 @@
           "path": "onnx/english_2026-04/flow_lm_main_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "f9bd8106b79a0192c1c43399ab938fb24900a95c1c599870d75a884e99000116",
+          "size": 76341079,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/english_2026-04/flow_lm_main_int8.onnx?download=true"
         },
         {
@@ -63,8 +63,8 @@
           "path": "onnx/english_2026-04/flow_lm_flow.onnx",
           "quality": "fp32",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "085d239f68897e28fb06e95c743738ad8b8c092ee6dc55f5491313e81ff08062",
+          "size": 39097095,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/english_2026-04/flow_lm_flow.onnx?download=true"
         },
         {
@@ -73,8 +73,8 @@
           "path": "onnx/english_2026-04/flow_lm_flow_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "3dd781ee5abee9e195320bf0106bebd6372a852b3b36352524ee78b40554635d",
+          "size": 9962530,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/english_2026-04/flow_lm_flow_int8.onnx?download=true"
         },
         {
@@ -83,8 +83,8 @@
           "path": "onnx/english_2026-04/mimi_decoder.onnx",
           "quality": "fp32",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "86f038caa02a96a0ff9c25526a0ff43a4906c418197ed72d3e30f720ac7ce802",
+          "size": 41471926,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/english_2026-04/mimi_decoder.onnx?download=true"
         },
         {
@@ -93,8 +93,8 @@
           "path": "onnx/english_2026-04/mimi_decoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "3630450a3297a101792a6ac66619ebc70ab916b265e6220c2afaef8b1673f925",
+          "size": 22684077,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/english_2026-04/mimi_decoder_int8.onnx?download=true"
         },
         {
@@ -103,8 +103,8 @@
           "path": "onnx/english_2026-04/mimi_encoder.onnx",
           "quality": "fp32",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "853e2ca623b8782d94c3745ec6133bfdff7ce33d9b11128bd29ea03f28d76e3d",
+          "size": 39768446,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/english_2026-04/mimi_encoder.onnx?download=true"
         },
         {
@@ -113,8 +113,8 @@
           "path": "onnx/english_2026-04/mimi_encoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "abb46f1ad0b83c3840fe38c3652ab0eda7d1d97a63f1953bbbff5d04d8f4c855",
+          "size": 20779616,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/english_2026-04/mimi_encoder_int8.onnx?download=true"
         },
         {
@@ -123,8 +123,8 @@
           "path": "onnx/english_2026-04/text_conditioner.onnx",
           "quality": "fp32",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "4ecee995fb69f85c7a7493d11f7b5ee15d9950facc7ab3f5c9c49ef1e03847bb",
+          "size": 16388344,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/english_2026-04/text_conditioner.onnx?download=true"
         },
         {
@@ -133,8 +133,8 @@
           "path": "onnx/english_2026-04/text_conditioner_int8.onnx",
           "quality": "int8",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "24c0642bff11a4e1435c004d0c2aa6c68e093fadfa35f0f0dba849ac67f25ac3",
+          "size": 16388384,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/english_2026-04/text_conditioner_int8.onnx?download=true"
         }
       ],
@@ -152,6 +152,8 @@
         "supports_voice_cloning": true,
         "upstream_bundle_dir": "onnx/english_2026-04"
       },
+      "model_recommended_frames_after_eos": null,
+      "pad_with_spaces_for_short_inputs": false,
       "predefined_voice_names": [
         "alba",
         "azelma",
@@ -178,6 +180,7 @@
           "text_conditioner": "fp32"
         }
       },
+      "remove_semicolons": false,
       "sample_rate": 24000
     },
     "french_24l": {
@@ -192,18 +195,18 @@
           "path": "onnx/french_24l/bundle.json",
           "quality": null,
           "role": "bundle_metadata",
-          "sha256": null,
-          "size": null,
+          "sha256": "8a5fe6c59985e3ccb5a6ccb1ffb2e84ac08488c5bfa704053618851436741427",
+          "size": 42235,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/french_24l/bundle.json?download=true"
         },
         {
           "filename": "tokenizer.model",
-          "format": "sentencepiece",
+          "format": "model",
           "path": "onnx/french_24l/tokenizer.model",
           "quality": null,
           "role": "tokenizer",
-          "sha256": null,
-          "size": null,
+          "sha256": "521c85bdb2da10618f4be52021ed1cb2a7a6299b040708487f133193f7b305e2",
+          "size": 60173,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/french_24l/tokenizer.model?download=true"
         },
         {
@@ -212,8 +215,8 @@
           "path": "onnx/french_24l/bos_before_voice.npy",
           "quality": null,
           "role": "bos_conditioning",
-          "sha256": null,
-          "size": null,
+          "sha256": "5759269802d691d49481b8e06d6a5649da85ea01135e270bd7641e3b091c7237",
+          "size": 4224,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/french_24l/bos_before_voice.npy?download=true"
         },
         {
@@ -222,8 +225,8 @@
           "path": "onnx/french_24l/flow_lm_main.onnx",
           "quality": "fp32",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "4cf6b6571065467e3804a70cceaad01d16b9435b74d850b48280ca7f4ed15609",
+          "size": 1210441908,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/french_24l/flow_lm_main.onnx?download=true"
         },
         {
@@ -232,8 +235,8 @@
           "path": "onnx/french_24l/flow_lm_main_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "6130a6b98fae175147d82752263e250fb7b8483c1ef5373753ad335c16f4a129",
+          "size": 305144125,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/french_24l/flow_lm_main_int8.onnx?download=true"
         },
         {
@@ -242,8 +245,8 @@
           "path": "onnx/french_24l/flow_lm_flow.onnx",
           "quality": "fp32",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "0a098e70f4848eac523c27c6719b16aea2ac380abd82595624c397df7f0a4d4a",
+          "size": 39097095,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/french_24l/flow_lm_flow.onnx?download=true"
         },
         {
@@ -252,8 +255,8 @@
           "path": "onnx/french_24l/flow_lm_flow_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "d340c549d5a1e0e7b88a0fb26fcae53c3b76486872f4418398a395bb1bc88701",
+          "size": 9962530,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/french_24l/flow_lm_flow_int8.onnx?download=true"
         },
         {
@@ -262,8 +265,8 @@
           "path": "onnx/french_24l/mimi_decoder.onnx",
           "quality": "fp32",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "7c46912a3e2bf5a6fe372b5f86ff70ea2f5bab26dcc28f6f9603b2b24b3d714a",
+          "size": 41471926,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/french_24l/mimi_decoder.onnx?download=true"
         },
         {
@@ -272,8 +275,8 @@
           "path": "onnx/french_24l/mimi_decoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "b329ff3de3aa95455d2dee1cf371943dec269dd8711008017501ca129cb18d8c",
+          "size": 22684077,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/french_24l/mimi_decoder_int8.onnx?download=true"
         },
         {
@@ -282,8 +285,8 @@
           "path": "onnx/french_24l/mimi_encoder.onnx",
           "quality": "fp32",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "790a82fb8041e1035ec8097c6a277c834664a1f6619397d62f3bb46f71d2bfd4",
+          "size": 39768446,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/french_24l/mimi_encoder.onnx?download=true"
         },
         {
@@ -292,8 +295,8 @@
           "path": "onnx/french_24l/mimi_encoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "f661fcb2dbf321e763368b48bdc7d6978ea972642f18091ed51f7917ea05cd1b",
+          "size": 20779616,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/french_24l/mimi_encoder_int8.onnx?download=true"
         },
         {
@@ -302,8 +305,8 @@
           "path": "onnx/french_24l/text_conditioner.onnx",
           "quality": "fp32",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "89d1b6ac55e618e42d2bd840438ce918bffb14960475ef091847ca39be641e65",
+          "size": 16388344,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/french_24l/text_conditioner.onnx?download=true"
         },
         {
@@ -312,8 +315,8 @@
           "path": "onnx/french_24l/text_conditioner_int8.onnx",
           "quality": "int8",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "bc74572507e07d9a9fe5d6950552eea79e49b5c503ba268820db9c5fc39f859a",
+          "size": 16388384,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/french_24l/text_conditioner_int8.onnx?download=true"
         }
       ],
@@ -321,11 +324,28 @@
       "id": "french_24l",
       "language": "fr",
       "layers": 24,
+      "max_token_per_chunk": 50,
       "metadata": {
+        "conditioning_dim": 1024,
+        "frame_rate": 12.5,
+        "latent_dim": 32,
         "predefined_voice_states_bundled": false,
+        "samples_per_frame": 1920,
         "supports_voice_cloning": true,
         "upstream_bundle_dir": "onnx/french_24l"
       },
+      "model_recommended_frames_after_eos": 8,
+      "pad_with_spaces_for_short_inputs": false,
+      "predefined_voice_names": [
+        "alba",
+        "azelma",
+        "cosette",
+        "eponine",
+        "fantine",
+        "javert",
+        "jean",
+        "marius"
+      ],
       "profiles": {
         "fp32": {
           "flow_lm_flow": "fp32",
@@ -342,6 +362,7 @@
           "text_conditioner": "fp32"
         }
       },
+      "remove_semicolons": true,
       "sample_rate": 24000
     },
     "german": {
@@ -356,18 +377,18 @@
           "path": "onnx/german/bundle.json",
           "quality": null,
           "role": "bundle_metadata",
-          "sha256": null,
-          "size": null,
+          "sha256": "7f032e4df0db3a02e24871dfa496e2b7ffa095dd98640bfcf12c04b8671ac60e",
+          "size": 24362,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german/bundle.json?download=true"
         },
         {
           "filename": "tokenizer.model",
-          "format": "sentencepiece",
+          "format": "model",
           "path": "onnx/german/tokenizer.model",
           "quality": null,
           "role": "tokenizer",
-          "sha256": null,
-          "size": null,
+          "sha256": "389079b9c67cd17ff1c565d53bc695df390b4ca8abf2300947e659585edd9d2a",
+          "size": 59837,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german/tokenizer.model?download=true"
         },
         {
@@ -376,8 +397,8 @@
           "path": "onnx/german/bos_before_voice.npy",
           "quality": null,
           "role": "bos_conditioning",
-          "sha256": null,
-          "size": null,
+          "sha256": "8c866aec4bcd5f0e6ca788f4b24eacba799b02262905e9f5d6f967409872f8df",
+          "size": 4224,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german/bos_before_voice.npy?download=true"
         },
         {
@@ -386,8 +407,8 @@
           "path": "onnx/german/flow_lm_main.onnx",
           "quality": "fp32",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "368c05f4b2752a9624ae380fffa065ba46db261ee8fac6019994c6a78c307f6c",
+          "size": 302742149,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german/flow_lm_main.onnx?download=true"
         },
         {
@@ -396,8 +417,8 @@
           "path": "onnx/german/flow_lm_main_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "3d5e9cd303ecd26fc75b91e2766bce6de3d274d397d3ee9a392f6299366681ef",
+          "size": 76341079,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german/flow_lm_main_int8.onnx?download=true"
         },
         {
@@ -406,8 +427,8 @@
           "path": "onnx/german/flow_lm_flow.onnx",
           "quality": "fp32",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "3b6dceddb6ea594f25d871d5466112b1c7a18bad0ef43b967a7a857b518143a1",
+          "size": 39097095,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german/flow_lm_flow.onnx?download=true"
         },
         {
@@ -416,8 +437,8 @@
           "path": "onnx/german/flow_lm_flow_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "2b0eb8381c49672ac1050c50221db02033b5dc6c346ab45c67bd05344257f06c",
+          "size": 9962530,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german/flow_lm_flow_int8.onnx?download=true"
         },
         {
@@ -426,8 +447,8 @@
           "path": "onnx/german/mimi_decoder.onnx",
           "quality": "fp32",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "e068e4b2a30e721a48171f15f09bdc082ad9f531434e9e2bcee2b2cd4e3e77f6",
+          "size": 41471926,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german/mimi_decoder.onnx?download=true"
         },
         {
@@ -436,8 +457,8 @@
           "path": "onnx/german/mimi_decoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "3fe868810d66fa0c26bb3ae0d5ee65cae83028c0fe83398bcf3d96478f68083b",
+          "size": 22684077,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german/mimi_decoder_int8.onnx?download=true"
         },
         {
@@ -446,8 +467,8 @@
           "path": "onnx/german/mimi_encoder.onnx",
           "quality": "fp32",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "71a00b2c6270af5f99389609bcd3d4682bf692fccb8f0ff9b21c3d2e473a204b",
+          "size": 39768446,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german/mimi_encoder.onnx?download=true"
         },
         {
@@ -456,8 +477,8 @@
           "path": "onnx/german/mimi_encoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "d11af63a34c01eaa967c4de6fd7804e1446c56d29e9bd6dd58ec908979ffa598",
+          "size": 20779616,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german/mimi_encoder_int8.onnx?download=true"
         },
         {
@@ -466,8 +487,8 @@
           "path": "onnx/german/text_conditioner.onnx",
           "quality": "fp32",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "a004c74047bc1c4208f6ca150c6337fb541ab03e154493f456d43baa0fd469f1",
+          "size": 16388344,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german/text_conditioner.onnx?download=true"
         },
         {
@@ -476,8 +497,8 @@
           "path": "onnx/german/text_conditioner_int8.onnx",
           "quality": "int8",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "de27b06fcd3901d50fdd95d669ba7a59e8311e4dba4120635eca3f3a898871b7",
+          "size": 16388384,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german/text_conditioner_int8.onnx?download=true"
         }
       ],
@@ -485,11 +506,28 @@
       "id": "german",
       "language": "de",
       "layers": 6,
+      "max_token_per_chunk": 50,
       "metadata": {
+        "conditioning_dim": 1024,
+        "frame_rate": 12.5,
+        "latent_dim": 32,
         "predefined_voice_states_bundled": false,
+        "samples_per_frame": 1920,
         "supports_voice_cloning": true,
         "upstream_bundle_dir": "onnx/german"
       },
+      "model_recommended_frames_after_eos": null,
+      "pad_with_spaces_for_short_inputs": false,
+      "predefined_voice_names": [
+        "alba",
+        "azelma",
+        "cosette",
+        "eponine",
+        "fantine",
+        "javert",
+        "jean",
+        "marius"
+      ],
       "profiles": {
         "fp32": {
           "flow_lm_flow": "fp32",
@@ -506,6 +544,7 @@
           "text_conditioner": "fp32"
         }
       },
+      "remove_semicolons": true,
       "sample_rate": 24000
     },
     "german_24l": {
@@ -519,18 +558,18 @@
           "path": "onnx/german_24l/bundle.json",
           "quality": null,
           "role": "bundle_metadata",
-          "sha256": null,
-          "size": null,
+          "sha256": "505ba8dcbe57cf1a094dbfd59a40b6cc6883e3e20d3ddf5c41fbd946ab74da5d",
+          "size": 42238,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german_24l/bundle.json?download=true"
         },
         {
           "filename": "tokenizer.model",
-          "format": "sentencepiece",
+          "format": "model",
           "path": "onnx/german_24l/tokenizer.model",
           "quality": null,
           "role": "tokenizer",
-          "sha256": null,
-          "size": null,
+          "sha256": "389079b9c67cd17ff1c565d53bc695df390b4ca8abf2300947e659585edd9d2a",
+          "size": 59837,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german_24l/tokenizer.model?download=true"
         },
         {
@@ -539,8 +578,8 @@
           "path": "onnx/german_24l/bos_before_voice.npy",
           "quality": null,
           "role": "bos_conditioning",
-          "sha256": null,
-          "size": null,
+          "sha256": "51c947a558eb09aadb7b5e0b6e18f1246d257af44b943bbac1b75decb718d67c",
+          "size": 4224,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german_24l/bos_before_voice.npy?download=true"
         },
         {
@@ -549,8 +588,8 @@
           "path": "onnx/german_24l/flow_lm_main.onnx",
           "quality": "fp32",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "7ee0cf9bdae48a1804e93cf12c44895c916a4198f44d64ad998eba594a080fd7",
+          "size": 1210441908,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german_24l/flow_lm_main.onnx?download=true"
         },
         {
@@ -559,8 +598,8 @@
           "path": "onnx/german_24l/flow_lm_main_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "3d9661a01a08619e612e00ae2f12232390171c6436750448e35ed754c72c1d68",
+          "size": 305144125,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german_24l/flow_lm_main_int8.onnx?download=true"
         },
         {
@@ -569,8 +608,8 @@
           "path": "onnx/german_24l/flow_lm_flow.onnx",
           "quality": "fp32",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "3b6dceddb6ea594f25d871d5466112b1c7a18bad0ef43b967a7a857b518143a1",
+          "size": 39097095,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german_24l/flow_lm_flow.onnx?download=true"
         },
         {
@@ -579,8 +618,8 @@
           "path": "onnx/german_24l/flow_lm_flow_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "2b0eb8381c49672ac1050c50221db02033b5dc6c346ab45c67bd05344257f06c",
+          "size": 9962530,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german_24l/flow_lm_flow_int8.onnx?download=true"
         },
         {
@@ -589,8 +628,8 @@
           "path": "onnx/german_24l/mimi_decoder.onnx",
           "quality": "fp32",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "e068e4b2a30e721a48171f15f09bdc082ad9f531434e9e2bcee2b2cd4e3e77f6",
+          "size": 41471926,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german_24l/mimi_decoder.onnx?download=true"
         },
         {
@@ -599,8 +638,8 @@
           "path": "onnx/german_24l/mimi_decoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "3fe868810d66fa0c26bb3ae0d5ee65cae83028c0fe83398bcf3d96478f68083b",
+          "size": 22684077,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german_24l/mimi_decoder_int8.onnx?download=true"
         },
         {
@@ -609,8 +648,8 @@
           "path": "onnx/german_24l/mimi_encoder.onnx",
           "quality": "fp32",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "7367f8af75d7fd12434aab754547b3d67b3513c80507c1573ba8822e5ac0b7f7",
+          "size": 39768446,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german_24l/mimi_encoder.onnx?download=true"
         },
         {
@@ -619,8 +658,8 @@
           "path": "onnx/german_24l/mimi_encoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "9c235c292b5e89ac0c28fb1f024ea2083c71f888328985e7bb5daa46182a95c3",
+          "size": 20779616,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german_24l/mimi_encoder_int8.onnx?download=true"
         },
         {
@@ -629,8 +668,8 @@
           "path": "onnx/german_24l/text_conditioner.onnx",
           "quality": "fp32",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "e9e939c3da9b8268b60675cadae93318685e3c8d16e1f3713b708b5ed16885d7",
+          "size": 16388344,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german_24l/text_conditioner.onnx?download=true"
         },
         {
@@ -639,8 +678,8 @@
           "path": "onnx/german_24l/text_conditioner_int8.onnx",
           "quality": "int8",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "e1e93583d26d131599465dbc88657c7e5b349f66b24bd5a96b3dbe88a64b8c38",
+          "size": 16388384,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/german_24l/text_conditioner_int8.onnx?download=true"
         }
       ],
@@ -648,11 +687,28 @@
       "id": "german_24l",
       "language": "de",
       "layers": 24,
+      "max_token_per_chunk": 50,
       "metadata": {
+        "conditioning_dim": 1024,
+        "frame_rate": 12.5,
+        "latent_dim": 32,
         "predefined_voice_states_bundled": false,
+        "samples_per_frame": 1920,
         "supports_voice_cloning": true,
         "upstream_bundle_dir": "onnx/german_24l"
       },
+      "model_recommended_frames_after_eos": null,
+      "pad_with_spaces_for_short_inputs": false,
+      "predefined_voice_names": [
+        "alba",
+        "azelma",
+        "cosette",
+        "eponine",
+        "fantine",
+        "javert",
+        "jean",
+        "marius"
+      ],
       "profiles": {
         "fp32": {
           "flow_lm_flow": "fp32",
@@ -669,6 +725,7 @@
           "text_conditioner": "fp32"
         }
       },
+      "remove_semicolons": true,
       "sample_rate": 24000
     },
     "italian": {
@@ -683,18 +740,18 @@
           "path": "onnx/italian/bundle.json",
           "quality": null,
           "role": "bundle_metadata",
-          "sha256": null,
-          "size": null,
+          "sha256": "c779c25fd836c9b85a3fc570474774777176757bd6bec0b5bffbbe599644a9f9",
+          "size": 24365,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian/bundle.json?download=true"
         },
         {
           "filename": "tokenizer.model",
-          "format": "sentencepiece",
+          "format": "model",
           "path": "onnx/italian/tokenizer.model",
           "quality": null,
           "role": "tokenizer",
-          "sha256": null,
-          "size": null,
+          "sha256": "6583b974a11b90e14d8a4c8e9c43f06c3861b9ede6e5023a4c27ab5a3a7d4c39",
+          "size": 60078,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian/tokenizer.model?download=true"
         },
         {
@@ -703,8 +760,8 @@
           "path": "onnx/italian/bos_before_voice.npy",
           "quality": null,
           "role": "bos_conditioning",
-          "sha256": null,
-          "size": null,
+          "sha256": "212357ca66b450e7dc2ae6cb11f1efd08b49c59e25196a6979c37962fef6cd82",
+          "size": 4224,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian/bos_before_voice.npy?download=true"
         },
         {
@@ -713,8 +770,8 @@
           "path": "onnx/italian/flow_lm_main.onnx",
           "quality": "fp32",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "43e83dd16d52b5e8024843b05a6a9679189c06b2242413083d54c7f4f39898d7",
+          "size": 302742149,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian/flow_lm_main.onnx?download=true"
         },
         {
@@ -723,8 +780,8 @@
           "path": "onnx/italian/flow_lm_main_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "f43ce4d823471095a7bd6d9dcfcceb46145ea96b0f2b85b7d668f15816965055",
+          "size": 76341079,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian/flow_lm_main_int8.onnx?download=true"
         },
         {
@@ -733,8 +790,8 @@
           "path": "onnx/italian/flow_lm_flow.onnx",
           "quality": "fp32",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "3646665d2b64f829d30bb8e6bdcf71802ee16dee8ae9af1ee460510eb8d9898f",
+          "size": 39097095,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian/flow_lm_flow.onnx?download=true"
         },
         {
@@ -743,8 +800,8 @@
           "path": "onnx/italian/flow_lm_flow_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "21b2bec2f9ae4323fc545a0c7ffb274bdfa925a699fd304ed03aba53e4ca9129",
+          "size": 9962530,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian/flow_lm_flow_int8.onnx?download=true"
         },
         {
@@ -753,8 +810,8 @@
           "path": "onnx/italian/mimi_decoder.onnx",
           "quality": "fp32",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "f474670d1494cd8ed43b610c68c90203a01211fac50086ae2aaf3d691af4efbb",
+          "size": 41471926,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian/mimi_decoder.onnx?download=true"
         },
         {
@@ -763,8 +820,8 @@
           "path": "onnx/italian/mimi_decoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "f120bc5cddca9514c511f128786f5d9e6e6893b067faae5e30f5b2bd5643aa03",
+          "size": 22684077,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian/mimi_decoder_int8.onnx?download=true"
         },
         {
@@ -773,8 +830,8 @@
           "path": "onnx/italian/mimi_encoder.onnx",
           "quality": "fp32",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "8936e1f95baedb898941fc7a259d7ab8c031aeaf6d3746ecac3cf7b280a9adda",
+          "size": 39768446,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian/mimi_encoder.onnx?download=true"
         },
         {
@@ -783,8 +840,8 @@
           "path": "onnx/italian/mimi_encoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "9877964347896de548463c14b2b66f6eee1962879942f37363363994070b2897",
+          "size": 20779616,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian/mimi_encoder_int8.onnx?download=true"
         },
         {
@@ -793,8 +850,8 @@
           "path": "onnx/italian/text_conditioner.onnx",
           "quality": "fp32",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "692369f5ac340006fa44252155da77fe6c8a60a859848297777e0caea534068e",
+          "size": 16388344,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian/text_conditioner.onnx?download=true"
         },
         {
@@ -803,8 +860,8 @@
           "path": "onnx/italian/text_conditioner_int8.onnx",
           "quality": "int8",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "5cbccc5923b4b0ee4feba09fafe6cef2730ec2c4ee5e60e2ff7fe796021dd575",
+          "size": 16388384,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian/text_conditioner_int8.onnx?download=true"
         }
       ],
@@ -812,11 +869,28 @@
       "id": "italian",
       "language": "it",
       "layers": 6,
+      "max_token_per_chunk": 50,
       "metadata": {
+        "conditioning_dim": 1024,
+        "frame_rate": 12.5,
+        "latent_dim": 32,
         "predefined_voice_states_bundled": false,
+        "samples_per_frame": 1920,
         "supports_voice_cloning": true,
         "upstream_bundle_dir": "onnx/italian"
       },
+      "model_recommended_frames_after_eos": null,
+      "pad_with_spaces_for_short_inputs": false,
+      "predefined_voice_names": [
+        "alba",
+        "azelma",
+        "cosette",
+        "eponine",
+        "fantine",
+        "javert",
+        "jean",
+        "marius"
+      ],
       "profiles": {
         "fp32": {
           "flow_lm_flow": "fp32",
@@ -833,6 +907,7 @@
           "text_conditioner": "fp32"
         }
       },
+      "remove_semicolons": false,
       "sample_rate": 24000
     },
     "italian_24l": {
@@ -846,18 +921,18 @@
           "path": "onnx/italian_24l/bundle.json",
           "quality": null,
           "role": "bundle_metadata",
-          "sha256": null,
-          "size": null,
+          "sha256": "4b7fd6f191cd1f48a8459833a390a1e2ad59bc284fa11e518bcdb64f36fb95d1",
+          "size": 42241,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian_24l/bundle.json?download=true"
         },
         {
           "filename": "tokenizer.model",
-          "format": "sentencepiece",
+          "format": "model",
           "path": "onnx/italian_24l/tokenizer.model",
           "quality": null,
           "role": "tokenizer",
-          "sha256": null,
-          "size": null,
+          "sha256": "6583b974a11b90e14d8a4c8e9c43f06c3861b9ede6e5023a4c27ab5a3a7d4c39",
+          "size": 60078,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian_24l/tokenizer.model?download=true"
         },
         {
@@ -866,8 +941,8 @@
           "path": "onnx/italian_24l/bos_before_voice.npy",
           "quality": null,
           "role": "bos_conditioning",
-          "sha256": null,
-          "size": null,
+          "sha256": "deced13188657a3543766500639e33271fd368b0f324bded9f9e615d42a23407",
+          "size": 4224,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian_24l/bos_before_voice.npy?download=true"
         },
         {
@@ -876,8 +951,8 @@
           "path": "onnx/italian_24l/flow_lm_main.onnx",
           "quality": "fp32",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "e213ce648733d0d2756b6567c9fb02ef5932a82e88b255ee7a1067eb4e783360",
+          "size": 1210441908,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian_24l/flow_lm_main.onnx?download=true"
         },
         {
@@ -886,8 +961,8 @@
           "path": "onnx/italian_24l/flow_lm_main_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "8c7b0dc076e6bed28d88fa7ca20e74e63418e9e7ad21b86d2558e48211c811d4",
+          "size": 305144125,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian_24l/flow_lm_main_int8.onnx?download=true"
         },
         {
@@ -896,8 +971,8 @@
           "path": "onnx/italian_24l/flow_lm_flow.onnx",
           "quality": "fp32",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "3646665d2b64f829d30bb8e6bdcf71802ee16dee8ae9af1ee460510eb8d9898f",
+          "size": 39097095,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian_24l/flow_lm_flow.onnx?download=true"
         },
         {
@@ -906,8 +981,8 @@
           "path": "onnx/italian_24l/flow_lm_flow_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "21b2bec2f9ae4323fc545a0c7ffb274bdfa925a699fd304ed03aba53e4ca9129",
+          "size": 9962530,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian_24l/flow_lm_flow_int8.onnx?download=true"
         },
         {
@@ -916,8 +991,8 @@
           "path": "onnx/italian_24l/mimi_decoder.onnx",
           "quality": "fp32",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "f474670d1494cd8ed43b610c68c90203a01211fac50086ae2aaf3d691af4efbb",
+          "size": 41471926,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian_24l/mimi_decoder.onnx?download=true"
         },
         {
@@ -926,8 +1001,8 @@
           "path": "onnx/italian_24l/mimi_decoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "f120bc5cddca9514c511f128786f5d9e6e6893b067faae5e30f5b2bd5643aa03",
+          "size": 22684077,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian_24l/mimi_decoder_int8.onnx?download=true"
         },
         {
@@ -936,8 +1011,8 @@
           "path": "onnx/italian_24l/mimi_encoder.onnx",
           "quality": "fp32",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "1f436e797ffd8147a1435aae3cf5fc5f17a3fa0bfd7b47438143a2682ba91208",
+          "size": 39768446,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian_24l/mimi_encoder.onnx?download=true"
         },
         {
@@ -946,8 +1021,8 @@
           "path": "onnx/italian_24l/mimi_encoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "9f45bdf936a6d5ae508e2d012ef863b8bd6dc67a938ed1a2d41d22def426ed0d",
+          "size": 20779616,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian_24l/mimi_encoder_int8.onnx?download=true"
         },
         {
@@ -956,8 +1031,8 @@
           "path": "onnx/italian_24l/text_conditioner.onnx",
           "quality": "fp32",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "00ff8327e832c8e46a4562cef886b53977c76c1e09bb4448c4a879689bced83d",
+          "size": 16388344,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian_24l/text_conditioner.onnx?download=true"
         },
         {
@@ -966,8 +1041,8 @@
           "path": "onnx/italian_24l/text_conditioner_int8.onnx",
           "quality": "int8",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "e3113c92b9e8344ca22f523cc36effdb685598b607a100f5b5f4cbd765462fe3",
+          "size": 16388384,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/italian_24l/text_conditioner_int8.onnx?download=true"
         }
       ],
@@ -975,11 +1050,28 @@
       "id": "italian_24l",
       "language": "it",
       "layers": 24,
+      "max_token_per_chunk": 50,
       "metadata": {
+        "conditioning_dim": 1024,
+        "frame_rate": 12.5,
+        "latent_dim": 32,
         "predefined_voice_states_bundled": false,
+        "samples_per_frame": 1920,
         "supports_voice_cloning": true,
         "upstream_bundle_dir": "onnx/italian_24l"
       },
+      "model_recommended_frames_after_eos": null,
+      "pad_with_spaces_for_short_inputs": false,
+      "predefined_voice_names": [
+        "alba",
+        "azelma",
+        "cosette",
+        "eponine",
+        "fantine",
+        "javert",
+        "jean",
+        "marius"
+      ],
       "profiles": {
         "fp32": {
           "flow_lm_flow": "fp32",
@@ -996,6 +1088,7 @@
           "text_conditioner": "fp32"
         }
       },
+      "remove_semicolons": false,
       "sample_rate": 24000
     },
     "portuguese": {
@@ -1010,18 +1103,18 @@
           "path": "onnx/portuguese/bundle.json",
           "quality": null,
           "role": "bundle_metadata",
-          "sha256": null,
-          "size": null,
+          "sha256": "389ab9d942f044a6a71d04e86ba89b100dee21ed91ca9d099b19ac45b122d242",
+          "size": 24371,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese/bundle.json?download=true"
         },
         {
           "filename": "tokenizer.model",
-          "format": "sentencepiece",
+          "format": "model",
           "path": "onnx/portuguese/tokenizer.model",
           "quality": null,
           "role": "tokenizer",
-          "sha256": null,
-          "size": null,
+          "sha256": "3aa51309c55f114771c156aaeb86f6fc325991364aa3c38af74aecf1cbd0fade",
+          "size": 60995,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese/tokenizer.model?download=true"
         },
         {
@@ -1030,8 +1123,8 @@
           "path": "onnx/portuguese/bos_before_voice.npy",
           "quality": null,
           "role": "bos_conditioning",
-          "sha256": null,
-          "size": null,
+          "sha256": "9396378d581d63554cc30f2861e5d5b825650ff3dd3594a9ddc73d18df0973f1",
+          "size": 4224,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese/bos_before_voice.npy?download=true"
         },
         {
@@ -1040,8 +1133,8 @@
           "path": "onnx/portuguese/flow_lm_main.onnx",
           "quality": "fp32",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "56c3d0c3658358fc5fcc229d8f797b9773898765292bfbad2d5becfa2d981a3c",
+          "size": 302742149,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese/flow_lm_main.onnx?download=true"
         },
         {
@@ -1050,8 +1143,8 @@
           "path": "onnx/portuguese/flow_lm_main_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "119e5ce926cadc273508565143c86a7a9cd86450fa99cad6a37a79ba50f9db02",
+          "size": 76341079,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese/flow_lm_main_int8.onnx?download=true"
         },
         {
@@ -1060,8 +1153,8 @@
           "path": "onnx/portuguese/flow_lm_flow.onnx",
           "quality": "fp32",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "41134866b54ac5d64dda6482a423b09158790f262880286643bdfa3c3929cfd0",
+          "size": 39097095,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese/flow_lm_flow.onnx?download=true"
         },
         {
@@ -1070,8 +1163,8 @@
           "path": "onnx/portuguese/flow_lm_flow_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "53c50fc75f892687920c316513715bfbefbdb3b7642786e287c7971df53edb26",
+          "size": 9962530,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese/flow_lm_flow_int8.onnx?download=true"
         },
         {
@@ -1080,8 +1173,8 @@
           "path": "onnx/portuguese/mimi_decoder.onnx",
           "quality": "fp32",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "e396510a578a817735107c13503e51ca5078ab7ae72a6d9426e33557d4fd3cf9",
+          "size": 41471926,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese/mimi_decoder.onnx?download=true"
         },
         {
@@ -1090,8 +1183,8 @@
           "path": "onnx/portuguese/mimi_decoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "691f89f074585c828914cecd5396e30e0e2a14dbfa4890bd1b5806d303daeb4e",
+          "size": 22684077,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese/mimi_decoder_int8.onnx?download=true"
         },
         {
@@ -1100,8 +1193,8 @@
           "path": "onnx/portuguese/mimi_encoder.onnx",
           "quality": "fp32",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "189d737f150a3d72be0818235c2b42f921cb1ad39107d11bb2e7f605fbdc7bc5",
+          "size": 39768446,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese/mimi_encoder.onnx?download=true"
         },
         {
@@ -1110,8 +1203,8 @@
           "path": "onnx/portuguese/mimi_encoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "37029c2653a2360e56dfe71140e4561104dd7e5410415156934d0ad4d153399d",
+          "size": 20779616,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese/mimi_encoder_int8.onnx?download=true"
         },
         {
@@ -1120,8 +1213,8 @@
           "path": "onnx/portuguese/text_conditioner.onnx",
           "quality": "fp32",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "693523a9b8e8853a7130676fd0e8189939255411700f0207664715226a26c409",
+          "size": 16388344,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese/text_conditioner.onnx?download=true"
         },
         {
@@ -1130,8 +1223,8 @@
           "path": "onnx/portuguese/text_conditioner_int8.onnx",
           "quality": "int8",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "0e046165bd63f24f9f1a0256bc2ba5f5ace1c9e26a51546ec218edea73834a3f",
+          "size": 16388384,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese/text_conditioner_int8.onnx?download=true"
         }
       ],
@@ -1139,11 +1232,28 @@
       "id": "portuguese",
       "language": "pt",
       "layers": 6,
+      "max_token_per_chunk": 50,
       "metadata": {
+        "conditioning_dim": 1024,
+        "frame_rate": 12.5,
+        "latent_dim": 32,
         "predefined_voice_states_bundled": false,
+        "samples_per_frame": 1920,
         "supports_voice_cloning": true,
         "upstream_bundle_dir": "onnx/portuguese"
       },
+      "model_recommended_frames_after_eos": null,
+      "pad_with_spaces_for_short_inputs": false,
+      "predefined_voice_names": [
+        "alba",
+        "azelma",
+        "cosette",
+        "eponine",
+        "fantine",
+        "javert",
+        "jean",
+        "marius"
+      ],
       "profiles": {
         "fp32": {
           "flow_lm_flow": "fp32",
@@ -1160,6 +1270,7 @@
           "text_conditioner": "fp32"
         }
       },
+      "remove_semicolons": false,
       "sample_rate": 24000
     },
     "portuguese_24l": {
@@ -1173,18 +1284,18 @@
           "path": "onnx/portuguese_24l/bundle.json",
           "quality": null,
           "role": "bundle_metadata",
-          "sha256": null,
-          "size": null,
+          "sha256": "5bf5cf4b75d1848dd13c863d92d6c3a6e4521aac2799dab8f1162a1944e337b8",
+          "size": 42247,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese_24l/bundle.json?download=true"
         },
         {
           "filename": "tokenizer.model",
-          "format": "sentencepiece",
+          "format": "model",
           "path": "onnx/portuguese_24l/tokenizer.model",
           "quality": null,
           "role": "tokenizer",
-          "sha256": null,
-          "size": null,
+          "sha256": "3aa51309c55f114771c156aaeb86f6fc325991364aa3c38af74aecf1cbd0fade",
+          "size": 60995,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese_24l/tokenizer.model?download=true"
         },
         {
@@ -1193,8 +1304,8 @@
           "path": "onnx/portuguese_24l/bos_before_voice.npy",
           "quality": null,
           "role": "bos_conditioning",
-          "sha256": null,
-          "size": null,
+          "sha256": "449db3e61656aad9eaecbe1dd0a1f654db3842cd36ae8550df4602b95f56644a",
+          "size": 4224,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese_24l/bos_before_voice.npy?download=true"
         },
         {
@@ -1203,8 +1314,8 @@
           "path": "onnx/portuguese_24l/flow_lm_main.onnx",
           "quality": "fp32",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "831fb01efdcd3e026dcd17ba300e7db4b984cfc91ceab8627565a9db974e9e29",
+          "size": 1210441908,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese_24l/flow_lm_main.onnx?download=true"
         },
         {
@@ -1213,8 +1324,8 @@
           "path": "onnx/portuguese_24l/flow_lm_main_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "6706505e9a576981087d05c98b3499c3ea7fc0209af556edf52fe0569273bb84",
+          "size": 305144125,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese_24l/flow_lm_main_int8.onnx?download=true"
         },
         {
@@ -1223,8 +1334,8 @@
           "path": "onnx/portuguese_24l/flow_lm_flow.onnx",
           "quality": "fp32",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "41134866b54ac5d64dda6482a423b09158790f262880286643bdfa3c3929cfd0",
+          "size": 39097095,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese_24l/flow_lm_flow.onnx?download=true"
         },
         {
@@ -1233,8 +1344,8 @@
           "path": "onnx/portuguese_24l/flow_lm_flow_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "53c50fc75f892687920c316513715bfbefbdb3b7642786e287c7971df53edb26",
+          "size": 9962530,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese_24l/flow_lm_flow_int8.onnx?download=true"
         },
         {
@@ -1243,8 +1354,8 @@
           "path": "onnx/portuguese_24l/mimi_decoder.onnx",
           "quality": "fp32",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "e396510a578a817735107c13503e51ca5078ab7ae72a6d9426e33557d4fd3cf9",
+          "size": 41471926,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese_24l/mimi_decoder.onnx?download=true"
         },
         {
@@ -1253,8 +1364,8 @@
           "path": "onnx/portuguese_24l/mimi_decoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "691f89f074585c828914cecd5396e30e0e2a14dbfa4890bd1b5806d303daeb4e",
+          "size": 22684077,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese_24l/mimi_decoder_int8.onnx?download=true"
         },
         {
@@ -1263,8 +1374,8 @@
           "path": "onnx/portuguese_24l/mimi_encoder.onnx",
           "quality": "fp32",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "55621c0227fe6944002437e278b02cb5a5744f3606bd14ea26b6fbcf3d1cb4c6",
+          "size": 39768446,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese_24l/mimi_encoder.onnx?download=true"
         },
         {
@@ -1273,8 +1384,8 @@
           "path": "onnx/portuguese_24l/mimi_encoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "8a63c79d5233653d523bdc610ddc53d6335e5c98443f08632e26430633f17cf6",
+          "size": 20779616,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese_24l/mimi_encoder_int8.onnx?download=true"
         },
         {
@@ -1283,8 +1394,8 @@
           "path": "onnx/portuguese_24l/text_conditioner.onnx",
           "quality": "fp32",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "e6aa04d1905bb8fe39366490bb2f60e47f7c5993e7a9de7963d2473f8b48222d",
+          "size": 16388344,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese_24l/text_conditioner.onnx?download=true"
         },
         {
@@ -1293,8 +1404,8 @@
           "path": "onnx/portuguese_24l/text_conditioner_int8.onnx",
           "quality": "int8",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "54b8eae9916d7213ac39fb13921c0d0c6de57a145d2236bfe840ea5ee47507dc",
+          "size": 16388384,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/portuguese_24l/text_conditioner_int8.onnx?download=true"
         }
       ],
@@ -1302,11 +1413,28 @@
       "id": "portuguese_24l",
       "language": "pt",
       "layers": 24,
+      "max_token_per_chunk": 50,
       "metadata": {
+        "conditioning_dim": 1024,
+        "frame_rate": 12.5,
+        "latent_dim": 32,
         "predefined_voice_states_bundled": false,
+        "samples_per_frame": 1920,
         "supports_voice_cloning": true,
         "upstream_bundle_dir": "onnx/portuguese_24l"
       },
+      "model_recommended_frames_after_eos": null,
+      "pad_with_spaces_for_short_inputs": false,
+      "predefined_voice_names": [
+        "alba",
+        "azelma",
+        "cosette",
+        "eponine",
+        "fantine",
+        "javert",
+        "jean",
+        "marius"
+      ],
       "profiles": {
         "fp32": {
           "flow_lm_flow": "fp32",
@@ -1323,6 +1451,7 @@
           "text_conditioner": "fp32"
         }
       },
+      "remove_semicolons": false,
       "sample_rate": 24000
     },
     "spanish": {
@@ -1337,18 +1466,18 @@
           "path": "onnx/spanish/bundle.json",
           "quality": null,
           "role": "bundle_metadata",
-          "sha256": null,
-          "size": null,
+          "sha256": "c9f18b5fc326c2a99f645588b79ef27ef3c9c6c3066f8df73bccb7f7c1f855b3",
+          "size": 24365,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish/bundle.json?download=true"
         },
         {
           "filename": "tokenizer.model",
-          "format": "sentencepiece",
+          "format": "model",
           "path": "onnx/spanish/tokenizer.model",
           "quality": null,
           "role": "tokenizer",
-          "sha256": null,
-          "size": null,
+          "sha256": "aac2b96478e3e3068712bd5c45dc196f84b7341ea72587c33a2094957f0c1b0c",
+          "size": 60895,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish/tokenizer.model?download=true"
         },
         {
@@ -1357,8 +1486,8 @@
           "path": "onnx/spanish/bos_before_voice.npy",
           "quality": null,
           "role": "bos_conditioning",
-          "sha256": null,
-          "size": null,
+          "sha256": "2c77a716ac206316d6656bdb4cf09e8a2fc9fa7a7f6cde4cceadc3fd7bb1d2a1",
+          "size": 4224,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish/bos_before_voice.npy?download=true"
         },
         {
@@ -1367,8 +1496,8 @@
           "path": "onnx/spanish/flow_lm_main.onnx",
           "quality": "fp32",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "45c1a49d6c8b6ef89a90bcc3c7e0070e5c0249f56650b9e7241f7867f6336083",
+          "size": 302742149,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish/flow_lm_main.onnx?download=true"
         },
         {
@@ -1377,8 +1506,8 @@
           "path": "onnx/spanish/flow_lm_main_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "9b020318976e0437bcc78ad0f4a49bf1de6e6e2193c6b0380398038601f9a270",
+          "size": 76341079,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish/flow_lm_main_int8.onnx?download=true"
         },
         {
@@ -1387,8 +1516,8 @@
           "path": "onnx/spanish/flow_lm_flow.onnx",
           "quality": "fp32",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "2f6300c6a07ee637213c142505ade9af5b257035fef0dd2561bcdbb022d68842",
+          "size": 39097095,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish/flow_lm_flow.onnx?download=true"
         },
         {
@@ -1397,8 +1526,8 @@
           "path": "onnx/spanish/flow_lm_flow_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "4cc630a8fc1d28e3b432349e492f5f81696aab88b1067b5282b15427fde19efe",
+          "size": 9962530,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish/flow_lm_flow_int8.onnx?download=true"
         },
         {
@@ -1407,8 +1536,8 @@
           "path": "onnx/spanish/mimi_decoder.onnx",
           "quality": "fp32",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "ee9684cd12e6bf6b466515da47742e6016335a20ad5cb57e2946bbf4ff669ec2",
+          "size": 41471926,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish/mimi_decoder.onnx?download=true"
         },
         {
@@ -1417,8 +1546,8 @@
           "path": "onnx/spanish/mimi_decoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "309efd11b65c58cd176e554d09241f3e2c9aaabd8cbf74b8f01bdd3ec8f7d8e5",
+          "size": 22684077,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish/mimi_decoder_int8.onnx?download=true"
         },
         {
@@ -1427,8 +1556,8 @@
           "path": "onnx/spanish/mimi_encoder.onnx",
           "quality": "fp32",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "6702fb117c58ff1f486f0b5153cafa41bca3811f08c560cc857ba445dd98a614",
+          "size": 39768446,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish/mimi_encoder.onnx?download=true"
         },
         {
@@ -1437,8 +1566,8 @@
           "path": "onnx/spanish/mimi_encoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "c2d5b57c7acb7c4c0852f4e83d22b794e8a8b12377d0e3f87b69197b7a425afb",
+          "size": 20779616,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish/mimi_encoder_int8.onnx?download=true"
         },
         {
@@ -1447,8 +1576,8 @@
           "path": "onnx/spanish/text_conditioner.onnx",
           "quality": "fp32",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "836ad5231fffe6d8fd23c8340d6d91676f466cd35057afd06b7db6ab69baae11",
+          "size": 16388344,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish/text_conditioner.onnx?download=true"
         },
         {
@@ -1457,8 +1586,8 @@
           "path": "onnx/spanish/text_conditioner_int8.onnx",
           "quality": "int8",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "d6b0f7600ded387b6289d2034d937765fb2a9ca63745d83ec98144efc4eea3bd",
+          "size": 16388384,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish/text_conditioner_int8.onnx?download=true"
         }
       ],
@@ -1466,11 +1595,28 @@
       "id": "spanish",
       "language": "es",
       "layers": 6,
+      "max_token_per_chunk": 50,
       "metadata": {
+        "conditioning_dim": 1024,
+        "frame_rate": 12.5,
+        "latent_dim": 32,
         "predefined_voice_states_bundled": false,
+        "samples_per_frame": 1920,
         "supports_voice_cloning": true,
         "upstream_bundle_dir": "onnx/spanish"
       },
+      "model_recommended_frames_after_eos": null,
+      "pad_with_spaces_for_short_inputs": false,
+      "predefined_voice_names": [
+        "alba",
+        "azelma",
+        "cosette",
+        "eponine",
+        "fantine",
+        "javert",
+        "jean",
+        "marius"
+      ],
       "profiles": {
         "fp32": {
           "flow_lm_flow": "fp32",
@@ -1487,6 +1633,7 @@
           "text_conditioner": "fp32"
         }
       },
+      "remove_semicolons": false,
       "sample_rate": 24000
     },
     "spanish_24l": {
@@ -1500,18 +1647,18 @@
           "path": "onnx/spanish_24l/bundle.json",
           "quality": null,
           "role": "bundle_metadata",
-          "sha256": null,
-          "size": null,
+          "sha256": "f556e75ddf5b2c3cde615aeb55625af97238cb55c90bf8a6fd9a03422c5048aa",
+          "size": 42241,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish_24l/bundle.json?download=true"
         },
         {
           "filename": "tokenizer.model",
-          "format": "sentencepiece",
+          "format": "model",
           "path": "onnx/spanish_24l/tokenizer.model",
           "quality": null,
           "role": "tokenizer",
-          "sha256": null,
-          "size": null,
+          "sha256": "aac2b96478e3e3068712bd5c45dc196f84b7341ea72587c33a2094957f0c1b0c",
+          "size": 60895,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish_24l/tokenizer.model?download=true"
         },
         {
@@ -1520,8 +1667,8 @@
           "path": "onnx/spanish_24l/bos_before_voice.npy",
           "quality": null,
           "role": "bos_conditioning",
-          "sha256": null,
-          "size": null,
+          "sha256": "74e3cf820cb0fb0688e941215229028f300c7dbd8a4b6b3348b9f1cb6b57d370",
+          "size": 4224,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish_24l/bos_before_voice.npy?download=true"
         },
         {
@@ -1530,8 +1677,8 @@
           "path": "onnx/spanish_24l/flow_lm_main.onnx",
           "quality": "fp32",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "6392d64574aa539f0f1a5cdb0fdbec0f8d71f5d447622e21dc627c1d26881b63",
+          "size": 1210441908,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish_24l/flow_lm_main.onnx?download=true"
         },
         {
@@ -1540,8 +1687,8 @@
           "path": "onnx/spanish_24l/flow_lm_main_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_main",
-          "sha256": null,
-          "size": null,
+          "sha256": "a37cc7c0ad34b0d79d8600dea55284b98564dce95c8a2761468a4db7be4b73f7",
+          "size": 305144125,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish_24l/flow_lm_main_int8.onnx?download=true"
         },
         {
@@ -1550,8 +1697,8 @@
           "path": "onnx/spanish_24l/flow_lm_flow.onnx",
           "quality": "fp32",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "2f6300c6a07ee637213c142505ade9af5b257035fef0dd2561bcdbb022d68842",
+          "size": 39097095,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish_24l/flow_lm_flow.onnx?download=true"
         },
         {
@@ -1560,8 +1707,8 @@
           "path": "onnx/spanish_24l/flow_lm_flow_int8.onnx",
           "quality": "int8",
           "role": "flow_lm_flow",
-          "sha256": null,
-          "size": null,
+          "sha256": "4cc630a8fc1d28e3b432349e492f5f81696aab88b1067b5282b15427fde19efe",
+          "size": 9962530,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish_24l/flow_lm_flow_int8.onnx?download=true"
         },
         {
@@ -1570,8 +1717,8 @@
           "path": "onnx/spanish_24l/mimi_decoder.onnx",
           "quality": "fp32",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "ee9684cd12e6bf6b466515da47742e6016335a20ad5cb57e2946bbf4ff669ec2",
+          "size": 41471926,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish_24l/mimi_decoder.onnx?download=true"
         },
         {
@@ -1580,8 +1727,8 @@
           "path": "onnx/spanish_24l/mimi_decoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_decoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "309efd11b65c58cd176e554d09241f3e2c9aaabd8cbf74b8f01bdd3ec8f7d8e5",
+          "size": 22684077,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish_24l/mimi_decoder_int8.onnx?download=true"
         },
         {
@@ -1590,8 +1737,8 @@
           "path": "onnx/spanish_24l/mimi_encoder.onnx",
           "quality": "fp32",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "7dc26cedb4d5a02f366062ff0cddd3fc39e8b85b1354b6bd5fc081ac095b7ba0",
+          "size": 39768446,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish_24l/mimi_encoder.onnx?download=true"
         },
         {
@@ -1600,8 +1747,8 @@
           "path": "onnx/spanish_24l/mimi_encoder_int8.onnx",
           "quality": "int8",
           "role": "mimi_encoder",
-          "sha256": null,
-          "size": null,
+          "sha256": "146aaa643a59361c5ced78fdc4c34cfcfbcb59d7f3debddbb8ec0e50439cd59d",
+          "size": 20779616,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish_24l/mimi_encoder_int8.onnx?download=true"
         },
         {
@@ -1610,8 +1757,8 @@
           "path": "onnx/spanish_24l/text_conditioner.onnx",
           "quality": "fp32",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "96a0e96e1f0a37569cdd6b791288a5212ec806d119511b235bd53dc9d2d85389",
+          "size": 16388344,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish_24l/text_conditioner.onnx?download=true"
         },
         {
@@ -1620,8 +1767,8 @@
           "path": "onnx/spanish_24l/text_conditioner_int8.onnx",
           "quality": "int8",
           "role": "text_conditioner",
-          "sha256": null,
-          "size": null,
+          "sha256": "e1892e08e6cd6c71a4ff815b934b72cbf19ae72d811d20c1fd0df3c53096ead2",
+          "size": 16388384,
           "url": "https://huggingface.co/KevinAHM/pocket-tts-onnx/resolve/58a6d00cf13d239b6748cb0769f35c580a8f606c/onnx/spanish_24l/text_conditioner_int8.onnx?download=true"
         }
       ],
@@ -1629,11 +1776,28 @@
       "id": "spanish_24l",
       "language": "es",
       "layers": 24,
+      "max_token_per_chunk": 50,
       "metadata": {
+        "conditioning_dim": 1024,
+        "frame_rate": 12.5,
+        "latent_dim": 32,
         "predefined_voice_states_bundled": false,
+        "samples_per_frame": 1920,
         "supports_voice_cloning": true,
         "upstream_bundle_dir": "onnx/spanish_24l"
       },
+      "model_recommended_frames_after_eos": null,
+      "pad_with_spaces_for_short_inputs": false,
+      "predefined_voice_names": [
+        "alba",
+        "azelma",
+        "cosette",
+        "eponine",
+        "fantine",
+        "javert",
+        "jean",
+        "marius"
+      ],
       "profiles": {
         "fp32": {
           "flow_lm_flow": "fp32",
@@ -1650,6 +1814,7 @@
           "text_conditioner": "fp32"
         }
       },
+      "remove_semicolons": false,
       "sample_rate": 24000
     }
   },
@@ -1663,6 +1828,6 @@
     "repository": "KevinAHM/pocket-tts-onnx",
     "requested_revision": "main",
     "revision": "58a6d00cf13d239b6748cb0769f35c580a8f606c",
-    "snapshot_note": "Bootstrap catalog pinned to the upstream v2-bundle commit. Rebuild with OnnxVoice Pocket catalog tooling to populate current-main hashes and sizes."
+    "snapshot_note": null
   }
 }

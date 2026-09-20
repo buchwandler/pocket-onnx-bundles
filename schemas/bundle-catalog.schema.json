@@ -12,21 +12,30 @@
     "bundles": {
       "type": "object",
       "minProperties": 1,
+      "propertyNames": {"$ref": "#/$defs/safeName"},
       "additionalProperties": {"$ref": "#/$defs/bundle"}
     }
   },
   "$defs": {
+    "safeName": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+    },
+    "relativePath": {
+      "type": "string",
+      "pattern": "^(?!/)(?!.*\\\\)(?!.*(?:^|/)(?:\\.|\\.\\.)(?:/|$)).+$"
+    },
     "source": {
       "type": "object",
-      "required": ["provider", "repository", "requested_revision", "revision", "bundle_root", "bundle_count"],
+      "required": ["provider", "repository", "requested_revision", "revision", "bundle_root", "bundle_count", "license", "snapshot_note"],
       "properties": {
         "provider": {"const": "huggingface"},
-        "repository": {"type": "string", "minLength": 3},
+        "repository": {"type": "string", "pattern": "^[^/\\\\\\s]+/[^/\\\\\\s]+$"},
         "requested_revision": {"type": "string", "minLength": 1},
         "revision": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
-        "bundle_root": {"type": "string", "minLength": 1},
+        "bundle_root": {"const": "onnx"},
         "bundle_count": {"type": "integer", "minimum": 1},
-        "license": {"type": ["string", "null"]},
+        "license": {"type": "string", "minLength": 1},
         "snapshot_note": {"type": ["string", "null"]}
       },
       "additionalProperties": false
@@ -36,18 +45,19 @@
       "additionalProperties": false,
       "required": ["role", "quality", "format", "filename", "path", "url", "size", "sha256"],
       "properties": {
-        "role": {"type": "string", "minLength": 1},
-        "quality": {"type": ["string", "null"]},
-        "format": {"type": ["string", "null"]},
-        "filename": {"type": "string", "minLength": 1},
-        "path": {"type": "string", "minLength": 1},
-        "url": {"type": "string", "pattern": "^https://huggingface\\.co/"},
-        "size": {"type": ["integer", "null"], "minimum": 1},
-        "sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"}
+        "role": {"enum": ["bundle_metadata", "tokenizer", "bos_conditioning", "flow_lm_main", "flow_lm_flow", "mimi_decoder", "mimi_encoder", "text_conditioner"]},
+        "quality": {"type": ["string", "null"], "enum": ["fp32", "int8", null]},
+        "format": {"type": "string", "minLength": 1},
+        "filename": {"$ref": "#/$defs/safeName"},
+        "path": {"$ref": "#/$defs/relativePath"},
+        "url": {"type": "string", "pattern": "^https://huggingface\\.co/[^/]+/[^/]+/resolve/[0-9a-f]{40}/.+$"},
+        "size": {"type": "integer", "minimum": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
       }
     },
     "profile": {
       "type": "object",
+      "propertyNames": {"enum": ["flow_lm_main", "flow_lm_flow", "mimi_decoder", "mimi_encoder", "text_conditioner"]},
       "additionalProperties": {"enum": ["fp32", "int8"]}
     },
     "bundle": {
@@ -55,14 +65,17 @@
       "additionalProperties": false,
       "required": ["id", "aliases", "language", "layers", "sample_rate", "bundle_schema", "profiles", "artifacts", "metadata"],
       "properties": {
-        "id": {"type": "string", "minLength": 1},
-        "aliases": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "id": {"$ref": "#/$defs/safeName"},
+        "aliases": {"type": "array", "items": {"$ref": "#/$defs/safeName"}, "uniqueItems": true},
         "language": {"type": "string", "minLength": 2},
         "layers": {"type": "integer", "minimum": 1},
         "sample_rate": {"type": "integer", "minimum": 1},
         "bundle_schema": {"type": "integer", "minimum": 1},
         "max_token_per_chunk": {"type": ["integer", "null"], "minimum": 1},
-        "predefined_voice_names": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "model_recommended_frames_after_eos": {"type": ["integer", "null"], "minimum": 1},
+        "remove_semicolons": {"type": "boolean"},
+        "pad_with_spaces_for_short_inputs": {"type": "boolean"},
+        "predefined_voice_names": {"type": "array", "items": {"$ref": "#/$defs/safeName"}, "uniqueItems": true},
         "profiles": {
           "type": "object",
           "required": ["int8", "fp32"],
