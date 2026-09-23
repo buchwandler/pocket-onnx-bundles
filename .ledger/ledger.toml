@@ -1,0 +1,18 @@
+schema_version = 3
+
+[project]
+uuid = "dff66d08-3344-45c1-904b-2be8e5e7a258"
+name = "pocket-onnx-bundles"
+
+[ledgers.taskledger.mounts.data]
+storage = "external"
+root = "../ledger"
+
+[ledgers.taskledger.mounts.runtime]
+storage = "user-data"
+
+[ledgers.taskledger.mounts.logs]
+storage = "user-data"
+
+[ledgers.taskledger.mounts.indexes]
+storage = "cache"

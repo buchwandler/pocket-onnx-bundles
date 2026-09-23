@@ -100,3 +100,7 @@ package version to keep in sync.
 Repository-authored metadata/docs are MIT licensed. Model files and bundle metadata referenced
 by the catalog remain under their upstream licensing; the source metadata reports CC BY 4.0.
 This repository does not relicense upstream model artifacts.
+
+The catalog is generated from [KevinAHM/pocket-tts-onnx](https://huggingface.co/KevinAHM/pocket-tts-onnx/tree/58a6d00cf13d239b6748cb0769f35c580a8f606c). The pinned source snapshot includes repository-level attribution and license information in its [README](https://huggingface.co/KevinAHM/pocket-tts-onnx/blob/58a6d00cf13d239b6748cb0769f35c580a8f606c/README.md) and `onnx/LICENSE`. Its README identifies the export as Pocket TTS based on [Kyutai's Pocket TTS](https://huggingface.co/kyutai/pocket-tts) and states CC BY 4.0 for the models.
+
+The pinned snapshot has no per-bundle `MODEL_CARD` artifact or more specific per-bundle attribution record. The catalog therefore preserves the upstream repository and exact revision as provenance and does not invent or relicense attribution metadata.

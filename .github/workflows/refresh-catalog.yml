@@ -18,11 +18,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python -m pip install "onnxvoice>=0.1.8"
+      - run: python -m pip install 'onnxvoice>=0.1.8,<0.2'
+      - run: python scripts/check_catalog_integrity.py
       - run: >
           onnxvoice catalog pocket build
           --output catalog/bundles.json
           --source-output catalog/source.json
+      - run: python scripts/check_catalog_integrity.py
       - name: Assert deterministic catalog rebuild
         run: |
           cp catalog/bundles.json /tmp/pocket-bundles-first.json
@@ -46,6 +48,7 @@ jobs:
           git commit -m "chore: refresh Pocket bundle catalog"
           git pull --rebase origin main
           onnxvoice catalog pocket build --output catalog/bundles.json --source-output catalog/source.json
+          python scripts/check_catalog_integrity.py
           onnxvoice catalog pocket verify --catalog catalog/bundles.json --source catalog/source.json
           if [ -n "$(git status --porcelain -- catalog/bundles.json catalog/source.json)" ]; then
             git add catalog/bundles.json catalog/source.json

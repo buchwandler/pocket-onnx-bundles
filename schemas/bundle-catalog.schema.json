@@ -60,6 +60,42 @@
       "propertyNames": {"enum": ["flow_lm_main", "flow_lm_flow", "mimi_decoder", "mimi_encoder", "text_conditioner"]},
       "additionalProperties": {"enum": ["fp32", "int8"]}
     },
+    "voiceState": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "compatible_bundle", "source", "access", "format", "size", "sha256", "url", "resolver"],
+      "properties": {
+        "name": {"$ref": "#/$defs/safeName"},
+        "compatible_bundle": {"$ref": "#/$defs/safeName"},
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["provider", "repository", "revision", "path"],
+          "properties": {
+            "provider": {"const": "huggingface"},
+            "repository": {"type": "string", "pattern": "^[^/\\\\\\s]+/[^/\\\\\\s]+$"},
+            "revision": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+            "path": {"$ref": "#/$defs/relativePath"}
+          }
+        },
+        "access": {
+          "type": "object",
+          "additionalProperties": true,
+          "required": ["gated", "distributable", "license"],
+          "properties": {
+            "gated": {"type": "boolean"},
+            "distributable": {"type": "boolean"},
+            "license": {"type": "string", "minLength": 1}
+          }
+        },
+        "format": {"type": "string", "minLength": 1},
+        "size": {"type": "integer", "minimum": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "url": {"type": ["string", "null"]},
+        "resolver": {"type": ["string", "null"]}
+      },
+      "anyOf": [{"required": ["url"]}, {"required": ["resolver"]}]
+    },
     "bundle": {
       "type": "object",
       "additionalProperties": false,
@@ -76,6 +112,7 @@
         "remove_semicolons": {"type": "boolean"},
         "pad_with_spaces_for_short_inputs": {"type": "boolean"},
         "predefined_voice_names": {"type": "array", "items": {"$ref": "#/$defs/safeName"}, "uniqueItems": true},
+        "voice_states": {"type": "array", "items": {"$ref": "#/$defs/voiceState"}, "uniqueItems": true},
         "profiles": {
           "type": "object",
           "required": ["int8", "fp32"],
