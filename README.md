@@ -65,9 +65,9 @@ the current upstream Python wrapper: INT8 Flow-LM and decoder, but FP32 Mimi enc
 conditioner. This avoids assuming that every available quantized graph is behaviorally
 interchangeable with upstream defaults.
 
-The catalog deliberately does not mirror Pocket's predefined `.safetensors` voice states.
-Those live in a separate upstream/gated asset domain and should become a separate OnnxVoice
-asset contract instead of being fetched implicitly by Pocketsynth.
+Bundle metadata may declare `predefined_voice_names`. These names describe compatibility between a voice and that bundle. PocketSynth reads the names from the selected bundle metadata; the catalog does not expand them based on an upstream voice list. Only declare names supported by evidence for that bundle.
+
+A declared name is not an asset manifest. It does not prove that a corresponding voice-state file exists, is reachable, or is accessible to a particular user. Pocket voice states are separate upstream assets and may be gated. OnnxVoice owns their pinned asset resolution, authentication, download, integrity checks, and cache. Do not add guessed URLs, checksums, or `voice_states` entries to the bundle catalog.
 
 ## Refresh and verification
 
